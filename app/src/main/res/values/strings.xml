@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Loan Easy</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="spinner_title">Delhi</string>
+
+</resources>
