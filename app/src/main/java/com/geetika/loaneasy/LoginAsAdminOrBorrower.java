@@ -55,5 +55,38 @@ public class LoginAsAdminOrBorrower extends AppCompatActivity {
 
             }
         });
+
+        binding.cv1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ProgressDialog TempDialog;
+                CountDownTimer CDT;
+                final int[] i = {2};
+
+                TempDialog = new ProgressDialog(LoginAsAdminOrBorrower.this);
+                TempDialog.setMessage("Please wait...");
+                TempDialog.setCancelable(false);
+                TempDialog.setProgress(i[0]);
+                TempDialog.show();
+
+                CDT = new CountDownTimer(1500, 1000)
+                {
+                    public void onTick(long millisUntilFinished)
+                    {
+                        TempDialog.setMessage("Please wait..");
+                        i[0]--;
+                    }
+
+                    public void onFinish()
+                    {
+                        TempDialog.dismiss();
+                        //Your Code ...
+                        Intent intent = new Intent(getApplicationContext(),LenderDashboardActivity.class);
+                        startActivity(intent);
+                    }
+                }.start();
+
+            }
+        });
     }
 }

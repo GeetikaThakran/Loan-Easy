@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         headings.add("Credit Limit :");
 
         values = new ArrayList<>();
-        values.add("30");
+        values.add("10");
         values.add("1000");
     }
 }

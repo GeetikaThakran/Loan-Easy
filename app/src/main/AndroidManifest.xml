@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoanEasy">
         <activity
+            android:name=".LenderDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProcessLoanApplicationActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoanApplyProofsActivity"
             android:exported="false" />
         <activity

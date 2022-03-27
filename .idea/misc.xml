@@ -5,16 +5,19 @@
       <map>
         <entry key="../../Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.15670289855072464" />
         <entry key="app/src/main/res/drawable/splash_background.xml" value="0.1645" />
+        <entry key="app/src/main/res/layout/activity_lender_dashboard.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_loan_apply.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_loan_apply_proofs.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_login_as_admin_or_borrower.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_process_loan_application.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_repay_loan.xml" value="0.14855072463768115" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.19293478260869565" />
         <entry key="app/src/main/res/layout/activity_track_status.xml" value="0.14855072463768115" />
         <entry key="app/src/main/res/layout/dropdown_list_state.xml" value="0.15670289855072464" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.22" />
         <entry key="app/src/main/res/layout/list_item_horizontal.xml" value="0.14855072463768115" />
+        <entry key="app/src/main/res/layout/list_item_lender.xml" value="0.22" />
         <entry key="app/src/main/res/layout/list_item_vertical.xml" value="0.2" />
         <entry key="app/src/main/res/menu/navigation_drawer_menu.xml" value="0.19375" />
       </map>
